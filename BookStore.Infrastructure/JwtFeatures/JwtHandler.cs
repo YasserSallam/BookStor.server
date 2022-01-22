@@ -1,18 +1,16 @@
 ﻿using DTOs.Account;
 using Google.Apis.Auth;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStore.API.JwtFeatures
+namespace BookStore.Infrastructure.JwtFeatures
 {
     public class JwtHandler
     {
