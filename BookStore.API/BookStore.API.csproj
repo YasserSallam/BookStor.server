@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.55.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.Infrastructure\BookStore.Infrastructure.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\00bab0da-2c25-43c9-9177-2d5792d1e67e_m2.png" />
+    <None Include="wwwroot\Images\16782a99-2d4a-46d4-bc4c-b0dacb2d298b_Capture.PNG" />
+    <None Include="wwwroot\Images\a6ac7ce5-e4ee-4bbd-b12b-71782e2ad593_m2.png" />
+    <None Include="wwwroot\Images\ae3093cd-4f10-49e0-a8bf-02985fd62f61_10144.jpg" />
+    <None Include="wwwroot\Images\Capture.PNG_908e57c4-9c56-4578-8425-7e475c6ea5d4" />
+    <None Include="wwwroot\Images\Capture.PNG_d40f6ef5-2f5a-49bb-bd1b-e61f84aef736" />
+    <None Include="wwwroot\Images\d6ee4077-9422-4dd5-87e0-1189555edfee_Capture.PNG" />
+    <None Include="wwwroot\Images\test.jpg" />
+  </ItemGroup>
+
+
+</Project>
